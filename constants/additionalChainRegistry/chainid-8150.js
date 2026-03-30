@@ -1,5 +1,5 @@
 export const data = {
-  "name": "Alpen Testnet",
+  "name": "Alpen Testnet II",
   "chain": "Alpen",
   "rpc": [
     "https://rpc.testnet.alpenlabs.io",
@@ -10,16 +10,16 @@ export const data = {
     "symbol": "sBTC",
     "decimals": 8
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "",
+  "features": [{ "name": "EIP1559" }],
+  "infoURL": "https://docs.alpenlabs.io",
   "shortName": "alpen",
-  "chainId": 2892,
-  "networkId": 2892,
+  "chainId": 8150,
+  "networkId": 8150,
     "icon": "https://avatars.githubusercontent.com/u/113091135",
   "explorers": [{
-    "name": "explorer",
+    "name": "Alpen Testnet Explorer",
     "url": "https://explorer.testnet.alpenlabs.io",
     "icon": "",
-    "standard": ""
+    "standard": "EIP3091"
   }]
 }
